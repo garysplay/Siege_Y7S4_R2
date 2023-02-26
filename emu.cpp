@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 Mr Goldberg
+/* Copyright (C) 2021-2023 Mr Goldberg
    This file is part of the Goldberg Emulator
 
    The Goldberg Emulator is free software; you can redistribute it and/or
