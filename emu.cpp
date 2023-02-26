@@ -443,7 +443,11 @@ EXPORT_FUNC int UPC_InstallLanguageGet_Extended(void *context, const char **outI
     return 0;
 }
 
-//EXPORT_FUNC int UPC_LaunchApp(void *context, unsigned inProductId, void *??? always zero)
+EXPORT_FUNC int UPC_LaunchApp(void *context, unsigned inProductId)
+{
+    PRINT_DEBUG("%s\n", __FUNCTION__);
+    return 0;
+}
 
 EXPORT_FUNC int UPC_MultiplayerInvite(void *context, void *inUserIdUtf8, void *inOptCallback, void *inOptCallbackData)
 {

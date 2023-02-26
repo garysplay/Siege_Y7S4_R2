@@ -4,6 +4,7 @@ rem Put in the base path in which Visual Studio is installed, default would be C
 
 set VS_Base_Path=C:\Program Files (x86)
 set VS22_Base_Path=C:\Program Files
+
 if exist "%VS22_Base_Path%\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat" goto vs2022
 if exist "%VS_Base_Path%\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat" goto vs2019
 if exist "%VS_Base_Path%\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat" goto vs2017
